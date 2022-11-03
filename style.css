@@ -17,18 +17,29 @@ footer {
 
 #work_outline { margin: 50px 0 57px 0; }
 
-.external_link:hover {
-  background: #6070ff;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+.external_link a:hover {
+    color: #fff;
 }
-
-.external_link:visited {
-  background: #2230d2;
-  border-radius: 8px;
+.external_link a {
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #396df2;
+    text-align: center;
 }
-
-.external_link a:hover { color: #fff; }
+.external_link {
+    border: 1px solid #396df2;
+    border-radius: 5px;
+    width: 45%;
+    margin-top: 16px;
+    padding: 10px 0;
+    text-align: center;
+    margin-left: 16px;
+    margin-bottom: 32px;
+}
 
 #nav {
   display: flex;
@@ -307,7 +318,7 @@ footer h3 {
 
 .skills li {
   background-color: #ebebfe;
-  border-radius: 25%;
+  border-radius: 8px;
   margin-right: 10px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -464,10 +475,15 @@ footer h3 {
   line-height: 24px;
   color: #396df2;
   border: 1px solid #396df2;
-  border-radius: 5px;
+  border-radius: 8px;
   text-align: center;
-  padding: 10px 0;
   align-self: baseline;
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 10px;
+
 }
 
 #my_resume:hover {
@@ -489,6 +505,7 @@ footer h3 {
 
 #spec_name {
   display: flex;
+  justify-content: space-between;
 }
 
 #spec_name p {
@@ -502,9 +519,9 @@ footer h3 {
   color: #000;
 }
 
-#spec_name div { align-self: flex-end; }
+#spec_name div {margin-right: 24px ; }
 
-#spec_name div img { vertical-align: middle; }
+#spec_name div img { vertical-align: middle;}
 
 #programmes {
   display: flex;
@@ -519,6 +536,8 @@ footer h3 {
   background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 5px;
+gap: 12px;
+
 }
 
 #frameworks {
@@ -622,4 +641,15 @@ footer h3 {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
 }
