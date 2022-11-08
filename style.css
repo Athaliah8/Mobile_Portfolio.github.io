@@ -316,7 +316,6 @@ footer h3 {
   justify-content: flex-start;
   padding-left: 0;
   margin-left: 16px;
- 
 }
 
 .skills li {
@@ -655,6 +654,7 @@ hr {
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
 }
+
 .first-text-contact {
   font-family: Poppins, sans-serif;
   font-size: 40px;
@@ -672,11 +672,12 @@ hr {
   color: #ebebff;
   text-align: center;
   align-self: flex-start;
-  margin: 20px 0;}
+  margin: 20px 0;
+}
 
-
-
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   font-family: Poppins, sans-serif;
   width: 100%;
   padding: 12px;
@@ -687,9 +688,10 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+
 .container {
   border-radius: 5px;
-  background-color:#6070FF;
+  background-color: #6070ff;
   padding: 20px;
 }
 
