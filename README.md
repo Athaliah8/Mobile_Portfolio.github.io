@@ -31,7 +31,9 @@ Open Github and navigate to the main page of the repository. Under the repo name
 
 - GitHub: [@githubhandle](https://github.com/Athaliah8)
 
+**Author2**
 
+- GitHub: [@githubhandle](https://github.com/azeezumoru)
 
 
 ## 🤝 Contributing
