@@ -127,7 +127,7 @@ h1:hover {
   text-decoration-thickness: 4px;
 }
 
-.bio-intro h1 {
+.bio-intro {
   font-family: Poppins, sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -137,7 +137,7 @@ h1:hover {
   display: flex;
   align-items: center;
   text-align: start;
-  margin: 0;
+  margin-left: 15px;
 }
 
 .bio {
@@ -153,13 +153,14 @@ p {
   text-decoration-color: #36a9f7;
   text-decoration-thickness: 2px;
   font-family: Poppins, sans-serif;
+  margin-left: 15px;
 }
 
 #socials ul {
   display: flex;
   align-items: center;
   padding-left: 0;
-  margin-left: 24px;
+  margin-left: 15px;
 }
 
 #more-about {
@@ -174,7 +175,7 @@ footer h3 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-left: 24px;
+  margin-left: 15px;
 }
 
 .handel {
@@ -691,7 +692,6 @@ textarea {
 
 .container {
   border-radius: 5px;
-  background-color: #6070ff;
   padding: 20px;
 }
 
@@ -708,4 +708,67 @@ textarea {
   padding: 8px;
   align-self: flex-start;
   transition: ease color 2s;
+}
+
+.btn-container:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+}
+
+.contact {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #396df2;
+  border-radius: 100px 0 0 0;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 96%;
+}
+
+#contact {
+  background-image:
+    url(./images/esp5.svg),
+    url(./images/Rectangle\ 7.png),
+    url(./images/esp3.svg),
+    url(./images/rsp4.svg),
+    url(./images/esp12.svg),
+    url(../statics/images/contact-form-\ background.svg);
+  background-repeat: no-repeat;
+  background-position:
+    78% 91%,
+    86% 90%,
+    99.7% 9.2%,
+    99.5% 6.2%,
+    41% 7.06%,
+    0;
+  background-size: auto, auto, auto, auto, auto, cover;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-form {
+  display: flex;
+  row-gap: 18px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area {
+  font-family: Poppins, sans-serif;
+  padding: 12px 20px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+  background-color: rgb(255, 255, 255);
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  resize: none;
+  margin-bottom: 1px;
+  width: 100%;
+  align-self: flex-start;
+  padding-left: 5px;
 }
