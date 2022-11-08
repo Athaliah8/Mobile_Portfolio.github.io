@@ -729,11 +729,11 @@ textarea {
 
 #contact {
   background-image:
-    url(./images/Ellipse\ 5\ \(1\).svg),
+    url(./images/esp5.svg),
     url(./images/Rectangle\ 7.png),
-    url(./images/Ellipse\ 3\ \(1\).svg),
-    url(./images/Rectangle\ 4\ \(1\).svg),
-    url(./images/Ellipse\ 12\ \(1\).svg),
+    url(./images/esp3.svg),
+    url(./images/rsp4.svg),
+    url(./images/esp12.svg),
     url(../statics/images/contact-form-\ background.svg);
   background-repeat: no-repeat;
   background-position:
