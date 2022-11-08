@@ -127,7 +127,7 @@ h1:hover {
   text-decoration-thickness: 4px;
 }
 
-.bio-intro  {
+.bio-intro {
   font-family: Poppins, sans-serif;
   font-style: bold;
   font-weight: 700;
@@ -135,8 +135,8 @@ h1:hover {
   line-height: 52px;
   color: #172b4d;
   display: flex;
-   align-items: center; 
-   text-align: start; 
+  align-items: center;
+  text-align: start;
   margin-right: 40px;
 }
 
@@ -711,7 +711,6 @@ textarea {
 }
 
 .btn-container:hover {
-
   text-decoration: underline;
   text-decoration-color: #18a0fa;
 }
