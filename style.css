@@ -4,10 +4,9 @@
 }
 
 body {
-  display: block;
-  margin: 10px;
-  background-color: #fff;
-  border-radius: 0 0 0 5%;
+  background-color: #e5e5e5;
+  margin: 0;
+  font-family: Poppins, sans-serif;
 }
 
 footer {
@@ -15,6 +14,111 @@ footer {
   flex-direction: column;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+}
+
+.nav-links a {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+}
+
+/* LOGO */
+.logo {
+  font-size: 32px;
+  color: #396df2;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.skills li {
+  background-color: #ebebfe;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  padding: 5px 15px;
+  list-style: none;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+.menu li:hover {
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: #4c9e9e;
+    transition: 0.3s ease;
+  }
+
+  input[type=checkbox]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
 #work_outline { margin: 50px 0 57px 0; }
 
 .external_link a {
@@ -46,32 +150,12 @@ footer {
 #nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  background-color: #fff;
 }
 
-#nav a {
-  display: flex;
-  text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  color: #414caf;
-  align-items: center;
-  text-align: center;
-  margin-left: 24px;
-}
-
-#nav a:hover {
-  text-decoration: underline;
-  text-decoration-color: #23a3fa;
-  text-decoration-thickness: 2px;
-}
-
-#nav nav {
-  width: 45px;
-  height: 30px;
-  display: flex;
-  align-items: center;
+.hero {
+  background-color: #fff;
+  border-radius: 0 0 0 15%;
 }
 
 #main-info {
@@ -89,8 +173,8 @@ footer {
     url("./Images/Ellipse\ 15.svg");
   background-position:
     19px 79px,
-    250px 0%,
-    315px 2%,
+    730px 2%,
+    800px 17%,
     214px 110px,
     125px 106px,
     127px 98px,
@@ -186,56 +270,58 @@ footer h3 {
 .handel:hover { background-color: #23a3fa; }
 
 #p1 {
-  margin: 0;
   grid-row: 1 / 1 span;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 #p1 #introd_1 {
-  margin: 0 16px;
+  /* margin: 0 16px; */
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 #p2 {
-  margin: 0;
   grid-row: 2 / 1 span;
   display: flex;
   flex-direction: column;
+  margin-top: 45px;
 }
 
 #p2 #introd_2 {
-  margin: 0 16px;
+  /* margin: 0 16px; */
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 #p3 {
-  margin: 0;
   grid-row: 3 / 1 span;
   display: flex;
   flex-direction: column;
+  margin-top: 45px;
 }
 
 #p3 #introd_3 {
-  margin: 0 16px;
+  /* margin: 0 16px; */
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 #p4 {
-  margin: 0;
   grid-row: 4 / 1 span;
   display: flex;
   flex-direction: column;
+  margin-top: 45px;
 }
 
 #p4 #introd_4 {
-  margin: 0 16px;
+  /* margin: 0 16px; */
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 
 #general_inf {
@@ -319,20 +405,6 @@ footer h3 {
   margin-left: 16px;
 }
 
-.skills li {
-  background-color: #ebebfe;
-  border-radius: 8px;
-  margin-right: 10px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  color: #6070ff;
-  padding: 5px 15px;
-  list-style: none;
-}
-
 .skills p:hover {
   border: 3px solid #18a0fa;
   text-decoration: underline;
@@ -401,10 +473,12 @@ footer h3 {
 }
 
 #about_me {
-  height: 130vh;
-  margin: 0 0 0 16px;
+  height: 180vh;
+  margin: 3px;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  border-radius: 0 10% 0 0;
 }
 
 #about_me h1 {
@@ -414,6 +488,7 @@ footer h3 {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin-left: 7px;
   display: flex;
   align-items: flex-end;
 }
@@ -431,6 +506,7 @@ footer h3 {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-right: 4px;
 }
 
 #presentation:hover {
@@ -451,6 +527,7 @@ footer h3 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-left: 8px;
 }
 
 #profile_link h2:hover {
@@ -462,6 +539,7 @@ footer h3 {
 #profile_link ul {
   display: flex;
   padding-left: 0;
+  margin-left: 7px;
 }
 
 #profile_link ul li {
@@ -486,6 +564,7 @@ footer h3 {
   align-items: center;
   padding: 12px;
   gap: 10px;
+  margin-left: 8px;
 }
 
 #my_resume:hover {
@@ -662,7 +741,8 @@ hr {
   color: #fff;
   text-align: center;
   align-self: flex-start;
-  padding-bottom: 20px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .second-text-contact {
@@ -672,22 +752,24 @@ hr {
   font-size: 20px;
   color: #ebebff;
   text-align: center;
-  align-self: flex-start;
-  margin: 20px 0;
 }
 
 input[type=text],
 select,
-textarea {
-  font-family: Poppins, sans-serif;
-  width: 100%;
+textarea,
+input[id=email] {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 2px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+
+  /* margin-top: 6px; */
+
+  /* margin-bottom: 16px; */
   resize: vertical;
+  margin: auto;
 }
 
 .container {
@@ -708,6 +790,7 @@ textarea {
   padding: 8px;
   align-self: flex-start;
   transition: ease color 2s;
+  margin: auto;
 }
 
 .btn-container:hover {
@@ -724,7 +807,6 @@ textarea {
   padding-bottom: 114px;
   padding-left: 24px;
   padding-right: 24px;
-  width: 96%;
 }
 
 #contact {
@@ -771,4 +853,23 @@ textarea {
   width: 100%;
   align-self: flex-start;
   padding-left: 5px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 310px;
+  background-color: white;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
 }
