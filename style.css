@@ -31,7 +31,15 @@ li {
 }
 
 .nav-links a {
-  color: #396df2;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #344563;
 }
 
 /* LOGO */
@@ -733,7 +741,8 @@ hr {
   color: #fff;
   text-align: center;
   align-self: flex-start;
-  padding-bottom: 20px;
+  font-weight: 700;
+  line-height: 52px;
 }
 
 .second-text-contact {
@@ -743,22 +752,24 @@ hr {
   font-size: 20px;
   color: #ebebff;
   text-align: center;
-  align-self: flex-start;
-  margin: 20px 0;
 }
 
 input[type=text],
 select,
-textarea {
-  font-family: Poppins, sans-serif;
-  width: 100%;
+textarea,
+input[id=email] {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 2px;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
+
+  /* margin-top: 6px; */
+
+  /* margin-bottom: 16px; */
   resize: vertical;
+  margin: auto;
 }
 
 .container {
@@ -779,6 +790,7 @@ textarea {
   padding: 8px;
   align-self: flex-start;
   transition: ease color 2s;
+  margin: auto;
 }
 
 .btn-container:hover {
@@ -847,6 +859,7 @@ textarea {
   float: left;
   padding: 10px;
   height: 310px;
+  background-color: white;
 }
 
 .row::after {
