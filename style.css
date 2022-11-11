@@ -929,7 +929,6 @@ input[id=email] {
   background-position: center;
 }
 
-
 /* Clear floats after the columns */
 .row-example::after {
   content: "";
