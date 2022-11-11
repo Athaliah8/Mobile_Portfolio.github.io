@@ -22,15 +22,14 @@ li {
   list-style: none;
 }
 
-#nav {
+/* #nav {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   background-color: teal;
-  
-}
+} */
 
 .nav-links a {
   font-family: Poppins, sans-serif;
@@ -42,7 +41,6 @@ li {
   align-items: center;
   text-align: center;
   color: #344563;
-  
 }
 
 .nav-links {
@@ -53,7 +51,7 @@ li {
 .logo {
   font-size: 32px;
   color: #396df2;
-  margin-left: 154px;
+  margin-left: 130px;
 }
 
 /* NAVBAR MENU */
@@ -613,10 +611,11 @@ footer h3 {
 #spec_name div img { vertical-align: middle; }
 
 #programmes {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   padding-left: 0;
   justify-content: space-between;
+  display: inline;
 }
 
 .pro {
@@ -889,18 +888,16 @@ input[id=email] {
   float: left;
   width: 50%;
   padding: 10px;
-
 }
 
-.about-column{
+.about-column {
   float: left;
   width: 50%;
   padding: 100px;
-
 }
 
 /* CARD IMAGES */
-.all_project-images{
+.all_project-images {
   height: 400px;
 }
 
@@ -934,51 +931,54 @@ input[id=email] {
 
 
 /* Clear floats after the columns */
-.row-example:after {
+.row-example::after {
   content: "";
   display: table;
   clear: both;
-
 }
+
 .row-example {
   border-radius: 24px;
   max-height: 700px;
-  margin:auto;
+  margin: auto;
   margin-top: 70px;
   background-color: white;
   max-width: 1170px;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column-example, .about-column {
+  .column-example,
+  .about-column {
     width: 50%;
-    padding: 0px;
+    padding: 0;
   }
+
   .row-example {
-    margin:auto;
+    margin: auto;
     margin-top: 42px;
   }
-  
 }
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
-  .column-example, .about-column {
+  .column-example,
+  .about-column {
     width: 100%;
-    padding: 0px;
+    padding: 0;
   }
+
   .row-example {
-    margin:auto;
+    margin: auto;
     margin-top: 20px;
   }
-  .all_project-images{
+
+  .all_project-images {
     height: 200px;
     width: 100%;
   }
 }
 
 /* About Section Skills */
-#programmes {
-  display: inline;
-}
