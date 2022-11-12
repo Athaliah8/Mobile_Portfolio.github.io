@@ -88,23 +88,23 @@ input[type=checkbox] {
 
 .pro {
   list-style: none;
- display: flex;
- background: #f7f7f9;
- border-radius: 8px;
- margin-bottom: 5px;
-flex-direction: column;
-width: 120px;
-height: 110px;
-text-align: center;
-align-items: center;
-justify-content: center;
-margin-right: 12px;
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  flex-direction: column;
+  width: 120px;
+  height: 110px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
 }
-
 
 #programmes {
   display: flex;
 }
+
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .menu {
@@ -143,7 +143,6 @@ margin-right: 12px;
     /* width: 10rem; */
     display: inline;
   }
-
 }
 #work_outline { margin: 50px 0 57px 0; }
 
@@ -273,10 +272,11 @@ p {
   margin-left: 150px;
 }
 
-.bio-text{
+.bio-text {
   margin-left: 150px;
   margin-right: 130px;
 }
+
 #more-about {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
@@ -535,9 +535,8 @@ footer h3 {
   color: #344563;
   margin-right: 4px;
   margin-bottom: unset;
-    margin-left: 6px;
-    margin-top: -10px;
-
+  margin-left: 6px;
+  margin-top: -10px;
 }
 
 #presentation:hover {
@@ -615,7 +614,6 @@ footer h3 {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  
 }
 
 #spec_name {
@@ -636,7 +634,6 @@ footer h3 {
 #spec_name div { margin-right: 24px; }
 
 #spec_name div img { vertical-align: middle; }
-
 
 .row {
   padding-top: 6rem;
@@ -896,21 +893,15 @@ input[id=email] {
   float: left;
   width: 50%;
   padding: 10px;
-  
 }
 
 .about-column {
   float: left;
   width: 50%;
   padding: 100px;
-  /* Auto layout */
-
-display: flex;
-flex-direction: column;
-/* align-items: flex-start; */
-padding: 0px;
-gap: 24px;
-  
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 /* CARD IMAGES */
