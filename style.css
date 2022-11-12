@@ -91,14 +91,13 @@ input[type=checkbox] {
   display: flex;
   background: #f7f7f9;
   border-radius: 8px;
-  margin-bottom: 5px;
   flex-direction: column;
   width: 120px;
-  height: 110px;
-  text-align: center;
+  height: 122px;
   align-items: center;
   justify-content: center;
-  margin-right: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #programmes {
@@ -144,7 +143,7 @@ input[type=checkbox] {
     display: inline;
   }
 }
-#work_outline { margin: 50px 0 57px 0; }
+#work_outline { margin: 50px 100px 57px 100px; }
 
 .external_link a {
   text-decoration: none;
@@ -185,17 +184,17 @@ input[type=checkbox] {
 
 #main-info {
   background-image:
-    url("./Images/Ellipse\ 11.svg"),
-    url("/Images/Rectangle\ 4.svg"),
-    url("./Images/Ellipse\ 3.svg"),
-    url("./Images/Ellipse\ 8.svg"),
-    url("./Images/Ellipse\ 5.svg"),
-    url("./Images/Rectangle\ 7\ \(1\).svg"),
-    url("./Images/Ellipse\ 12.svg"),
-    url("./Images/Ellipse\ 4.svg"),
-    url("./Images/Rectangle\ 5.svg"),
-    url("./Images/Ellipse\ 13.svg"),
-    url("./Images/Ellipse\ 15.svg");
+    url("./images/Ellipse\ 11.svg"),
+    url("./images/Rectangle\ 4.svg"),
+    url("./images/Ellipse\ 3.svg"),
+    url("./images/Ellipse\ 8.svg"),
+    url("./images/Ellipse\ 5.svg"),
+    url("./images/Rectangle\ 7\ \(1\).svg"),
+    url("./images/Ellipse\ 12.svg"),
+    url("./images/Ellipse\ 4.svg"),
+    url("./images/Rectangle\ 5.svg"),
+    url("./images/Ellipse\ 13.svg"),
+    url("./images/Ellipse\ 15.svg");
   background-position:
     19px 79px,
     760px 2%,
@@ -501,7 +500,6 @@ footer h3 {
 
 #about_me {
   height: 180vh;
-  margin: 3px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -534,9 +532,7 @@ footer h3 {
   line-height: 24px;
   color: #344563;
   margin-right: 4px;
-  margin-bottom: unset;
   margin-left: 6px;
-  margin-top: -10px;
 }
 
 #presentation:hover {
@@ -776,10 +772,6 @@ input[id=email] {
   border: 1px solid #ccc;
   border-radius: 2px;
   box-sizing: border-box;
-
-  /* margin-top: 6px; */
-
-  /* margin-bottom: 16px; */
   resize: vertical;
   margin: auto;
 }
@@ -898,10 +890,7 @@ input[id=email] {
 .about-column {
   float: left;
   width: 50%;
-  padding: 100px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+  padding: 0;
 }
 
 /* CARD IMAGES */
