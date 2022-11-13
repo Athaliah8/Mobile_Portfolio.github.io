@@ -22,16 +22,6 @@ li {
   list-style: none;
 }
 
-#nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: teal;
-  
-}
-
 .nav-links a {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -42,7 +32,6 @@ li {
   align-items: center;
   text-align: center;
   color: #344563;
-  
 }
 
 .nav-links {
@@ -53,7 +42,7 @@ li {
 .logo {
   font-size: 32px;
   color: #396df2;
-  margin-left: 154px;
+  margin-left: 130px;
 }
 
 /* NAVBAR MENU */
@@ -97,6 +86,24 @@ input[type=checkbox] {
   user-select: none;
 }
 
+.pro {
+  list-style: none;
+  display: flex;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex-direction: column;
+  width: 120px;
+  height: 122px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#programmes {
+  display: flex;
+}
+
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .menu {
@@ -126,8 +133,17 @@ input[type=checkbox] {
   .hamburger {
     display: block;
   }
+
+  #programmes {
+    display: inline;
+  }
+
+  .pro {
+    /* width: 10rem; */
+    display: inline;
+  }
 }
-#work_outline { margin: 50px 0 57px 0; }
+#work_outline { margin: 50px 100px 57px 100px; }
 
 .external_link a {
   text-decoration: none;
@@ -168,21 +184,21 @@ input[type=checkbox] {
 
 #main-info {
   background-image:
-    url("./Images/Ellipse\ 11.svg"),
-    url("/Images/Rectangle\ 4.svg"),
-    url("./Images/Ellipse\ 3.svg"),
-    url("./Images/Ellipse\ 8.svg"),
-    url("./Images/Ellipse\ 5.svg"),
-    url("./Images/Rectangle\ 7\ \(1\).svg"),
-    url("./Images/Ellipse\ 12.svg"),
-    url("./Images/Ellipse\ 4.svg"),
-    url("./Images/Rectangle\ 5.svg"),
-    url("./Images/Ellipse\ 13.svg"),
-    url("./Images/Ellipse\ 15.svg");
+    url("./images/Ellipse\ 11.svg"),
+    url("./images/Rectangle\ 4.svg"),
+    url("./images/Ellipse\ 3.svg"),
+    url("./images/Ellipse\ 8.svg"),
+    url("./images/Ellipse\ 5.svg"),
+    url("./images/Rectangle\ 7\ \(1\).svg"),
+    url("./images/Ellipse\ 12.svg"),
+    url("./images/Ellipse\ 4.svg"),
+    url("./images/Rectangle\ 5.svg"),
+    url("./images/Ellipse\ 13.svg"),
+    url("./images/Ellipse\ 15.svg");
   background-position:
     19px 79px,
-    730px 2%,
-    800px 17%,
+    760px 2%,
+    849px 15%,
     214px 110px,
     125px 106px,
     127px 98px,
@@ -229,7 +245,7 @@ h1:hover {
   display: flex;
   align-items: center;
   text-align: start;
-  margin-left: 15px;
+  margin-left: 150px;
 }
 
 .bio {
@@ -252,7 +268,12 @@ p {
   display: flex;
   align-items: center;
   padding-left: 0;
-  margin-left: 15px;
+  margin-left: 150px;
+}
+
+.bio-text {
+  margin-left: 150px;
+  margin-right: 130px;
 }
 
 #more-about {
@@ -267,7 +288,7 @@ footer h3 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-left: 15px;
+  margin-left: 150px;
 }
 
 .handel {
@@ -284,7 +305,6 @@ footer h3 {
 }
 
 #p1 #introd_1 {
-  /* margin: 0 16px; */
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -312,7 +332,6 @@ footer h3 {
 }
 
 #p3 #introd_3 {
-  /* margin: 0 16px; */
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -326,7 +345,6 @@ footer h3 {
 }
 
 #p4 #introd_4 {
-  /* margin: 0 16px; */
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -482,7 +500,6 @@ footer h3 {
 
 #about_me {
   height: 180vh;
-  margin: 3px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -515,6 +532,7 @@ footer h3 {
   line-height: 24px;
   color: #344563;
   margin-right: 4px;
+  margin-left: 6px;
 }
 
 #presentation:hover {
@@ -526,6 +544,7 @@ footer h3 {
 #profile_link {
   display: flex;
   flex-direction: column;
+  margin-top: -20px;
 }
 
 #profile_link h2 {
@@ -535,7 +554,7 @@ footer h3 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-left: 8px;
+  margin-left: 6px;
 }
 
 #profile_link h2:hover {
@@ -590,6 +609,7 @@ footer h3 {
 #languages_skills {
   display: flex;
   flex-direction: column;
+  border-radius: 8px;
 }
 
 #spec_name {
@@ -604,7 +624,6 @@ footer h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
   color: #000;
 }
 
@@ -612,20 +631,11 @@ footer h3 {
 
 #spec_name div img { vertical-align: middle; }
 
-#programmes {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  justify-content: space-between;
-}
-
-.pro {
-  list-style: none;
-  display: flex;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-bottom: 5px;
-  gap: 12px;
+.row {
+  padding-top: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 6rem;
 }
 
 #frameworks {
@@ -705,16 +715,6 @@ hr {
   height: 1px;
 }
 
-#programmes .pro p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  margin-left: 15px;
-}
-
 #spec_name p:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
@@ -772,10 +772,6 @@ input[id=email] {
   border: 1px solid #ccc;
   border-radius: 2px;
   box-sizing: border-box;
-
-  /* margin-top: 6px; */
-
-  /* margin-bottom: 16px; */
   resize: vertical;
   margin: auto;
 }
@@ -889,96 +885,96 @@ input[id=email] {
   float: left;
   width: 50%;
   padding: 10px;
-
 }
 
-.about-column{
+.about-column {
   float: left;
   width: 50%;
-  padding: 100px;
-
+  padding: 0;
 }
 
 /* CARD IMAGES */
-.all_project-images{
+.all_project-images {
   height: 400px;
 }
 
 .proj-image1 {
-  background-image: url(./images/portfolioImage1.svg);
+  background-image: url(./images/eerste.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .proj-image2 {
-  background-image: url(./images/portfolioImage2.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.proj-image3 {
   background-image: url(./images/portfolioImage3.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
-.proj-image4 {
+.proj-image3 {
   background-image: url(./images/portfolioImage4.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
+.proj-image4 {
+  background-image: url(./images/portfolioImage1.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
 /* Clear floats after the columns */
-.row-example:after {
+.row-example::after {
   content: "";
   display: table;
   clear: both;
-
 }
+
 .row-example {
   border-radius: 24px;
   max-height: 700px;
-  margin:auto;
+  margin: auto;
   margin-top: 70px;
   background-color: white;
   max-width: 1170px;
-
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column-example, .about-column {
+  .column-example,
+  .about-column {
     width: 50%;
-    padding: 0px;
+    padding: 0;
   }
+
   .row-example {
-    margin:auto;
+    margin: auto;
     margin-top: 42px;
   }
-  
 }
+
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
-  .column-example, .about-column {
+  .column-example,
+  .about-column {
     width: 100%;
-    padding: 0px;
+    padding: 0;
   }
+
   .row-example {
-    margin:auto;
+    margin: auto;
     margin-top: 20px;
   }
-  .all_project-images{
+
+  .all_project-images {
     height: 200px;
     width: 100%;
   }
 }
 
 /* About Section Skills */
-#programmes {
-  display: inline;
-}
