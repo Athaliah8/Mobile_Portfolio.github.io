@@ -10,7 +10,7 @@
 - HTML & CSS
 - Linters
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://athaliah8.github.io/Mobile_Portfolio/)
 
