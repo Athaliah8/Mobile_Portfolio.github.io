@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](file:///C:/Users/athal/Portflio_Setup/index.html)
+[Live Demo Link](https://athaliah8.github.io/Mobile_Portfolio/)
 
 
 
