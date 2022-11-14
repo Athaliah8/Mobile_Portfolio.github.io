@@ -183,35 +183,19 @@ input[type=checkbox] {
 }
 
 #main-info {
-  background-image:
-    url("./images/Ellipse\ 11.svg"),
-    url("./images/Rectangle\ 4.svg"),
-    url("./images/Ellipse\ 3.svg"),
-    url("./images/Ellipse\ 8.svg"),
-    url("./images/Ellipse\ 5.svg"),
-    url("./images/Rectangle\ 7\ \(1\).svg"),
-    url("./images/Ellipse\ 12.svg"),
-    url("./images/Ellipse\ 4.svg"),
-    url("./images/Rectangle\ 5.svg"),
-    url("./images/Ellipse\ 13.svg"),
-    url("./images/Ellipse\ 15.svg");
-  background-position:
-    19px 79px,
-    760px 2%,
-    849px 15%,
-    214px 110px,
-    125px 106px,
-    127px 98px,
-    370px 385px,
-    290px 509px,
-    240px 507px,
-    357px 392px,
-    106px 497px;
+  background-color: #fff;
+  background-image: url("./images/Header\ bg\ \(1\).svg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  max-height: 180vh;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 600px;
+  border-bottom-left-radius: 70px;
+  gap: 12px;
+  position: relative;
 }
 
 #work_outline footer {
@@ -976,5 +960,3 @@ input[id=email] {
     width: 100%;
   }
 }
-
-/* About Section Skills */
