@@ -196,11 +196,13 @@ input[type=checkbox] {
   border-bottom-left-radius: 70px;
   gap: 12px;
   position: relative;
+
 }
 
 #work_outline footer {
   display: flex;
   flex-direction: column;
+  display: inline-flexbox;
 }
 
 h1 {
@@ -941,7 +943,6 @@ input[id=email] {
     margin-top: 42px;
   }
 }
-
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
   .column-example,
@@ -961,4 +962,4 @@ input[id=email] {
   }
 }
 
-/* About Section Skills */
+
