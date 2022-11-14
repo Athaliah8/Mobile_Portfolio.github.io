@@ -182,9 +182,7 @@ input[type=checkbox] {
   border-radius: 0 0 0 15%;
 }
 
-
 #main-info {
-  
   background-color: #fff;
   background-image: url("./images/Header\ bg\ \(1\).svg");
   background-repeat: no-repeat;
@@ -198,7 +196,6 @@ input[type=checkbox] {
   border-bottom-left-radius: 70px;
   gap: 12px;
   position: relative;
-
 }
 
 #work_outline footer {
