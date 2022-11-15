@@ -219,7 +219,7 @@ input[type=checkbox] {
   flex-direction: column;
 }
 
-h1 {
+h2 {
   margin-top: 12px;
   margin-bottom: 0;
   font-weight: bold;
@@ -229,7 +229,7 @@ h1 {
   line-height: 44px;
 }
 
-h1:hover {
+h2:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 4px;
@@ -506,7 +506,7 @@ footer h3 {
   border-radius: 0 10% 0 0;
 }
 
-#about_me h1 {
+#about_me h2 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -518,7 +518,17 @@ footer h3 {
   align-items: flex-end;
 }
 
-#about_me h1:hover {
+#profile_link h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 6px;
+}
+
+#about_me h2:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
@@ -545,16 +555,6 @@ footer h3 {
   display: flex;
   flex-direction: column;
   margin-top: -20px;
-}
-
-#profile_link h2 {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-left: 6px;
 }
 
 #profile_link h2:hover {
