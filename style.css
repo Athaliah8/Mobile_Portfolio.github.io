@@ -890,14 +890,14 @@ input[id=email] {
 }
 
 .proj-image2 {
-  background-image: url(./images/portfolioImage3.svg);
+  background-image: url(./images/derde.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .proj-image3 {
-  background-image: url(./images/portfolioImage4.svg);
+  background-image: url(./images/vier.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -960,5 +960,3 @@ input[id=email] {
     width: 100%;
   }
 }
-
-/* About Section Skills */
