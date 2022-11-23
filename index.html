@@ -1,294 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title> Athaliah's Portflio </title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,600&display=swap"
-    rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Athaliah's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+  <link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./pop.css" />
 </head>
-
 <body>
-
-  <nav id="nav">
-    <a class="logo" href="#"><img src="./images/logo.svg" alt="my logo"></a>
-
-    <ul class="nav-links">
-      <!-- USING CHECKBOX HACK -->
-      <input type="checkbox" id="checkbox_toggle" />
-      <!-- <nav class="hamburger"><img src="./Images/Union.svg" alt="burger-menu"></nav> -->
-      <label for="checkbox_toggle" class="hamburger"><img src="./images/Union.svg" alt="burger-menu"></label>
-      <!-- NAVIGATION MENUS -->
-      <div class="menu">
-        <li><a href="/">Portfolio</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
-  </nav>
-
-  <section class="hero" id="main-info">
-    <div class="container">
-      <h1 class="bio-intro">I’m Athaliah<br>
-        Glad to see you!</h1>
-      <p class="bio-text">
-        I’m a software developer! I can help you build a product ,
-        feature or website Look through some of my work and experience!
-        If you like what you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <footer>
-
-        <h3>LET'S CONNECT</h3>
-        <div id="socials">
-          <ul>
-            <li class="handel"><a href="https://twitter.com/AthaliahLi"><img src="./images/twitter.svg"
-                  alt="twitter link"></a></li>
-            <li class="handel"><a href="https://www.linkedin.com/in/athaliah-li-56217324a/"><img
-                  src="./images/Linkedin.svg" alt="linked link"></a></li>
-            <li class="handel"><a href="#"><img src="./images/Vector.svg" alt="M"></a> </li>
-            <li class="handel"><a href="https://github.com/Athaliah8"><img src="./images/github.svg"
-                  alt="github link"></a></li>
-            <li class="handel"><a href="#"><img src="./images/angellist.svg" alt="angellist"></a></li>
-          </ul>
-        </div>
-      </footer>
+  <header class="navbar">
+    <div class="nav-logo">
+      <a  class="logo" href="#">My logo</a>
     </div>
-    </div>
-  </section>
-
-  <section id="work_outline">
-
-    <!-- Card1 -->
-    <div class="row-example">
-      <div class="column-example ">
-        <div class="all_project-images proj-image1"></div>
+    <nav class="container">
+      
+      <div class="menu-wrapper">
+        <img id="mobile-menu" class="mobile-menu" src="./images/Union.svg" alt="open navigation">
       </div>
-      <div class="column-example">
-        <h1>Multi-Post
-          Stories</h1>
-        <div id="general_inf_3">
-          <p class="title">CANOPY</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter" />
-          <p class="job-title">Back End Dev</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter">
-          <p class="year">2015</p>
+      <div id="nav-list-menu" class="nav-list-menu">
+        <i class="fa fa-fw fa-x mobile-menu-exit" id="mobile-menu-exit"></i>
+        <ul id="nav-list" class="nav-list">
+        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+<section id="portfolio" class="hero">
+  <div class="container">
+    <h2 class="bio-text">I’m Athaliah Tauro <br> Glad to see you!</h2>
+    <p class="bio-intro"> 
+      I’m a software developer! I can help you build a product ,
+      feature or website Look through some of my <br>work and experience!
+      If you like what you see and have a project you need coded,
+      don’t hesitate to contact me.
+    </p> 
+    
+    <h4>LET’S CONNECT</h4>
+    <ul class="headline-img">
+      <li><a href="#"><img class="t-social-media" src="./images/twitter.svg" alt=" link to twitter icon"></a></li>
+      <li><a href="#"><img class="l-social-media" src="./images/Linkedin.svg" alt="link to linkedIn "></a></li>
+      <li><a href="#"><img class="m-social-media" src="./images/Vector.svg" alt="link to medium"></a></li>
+      <li><a href="#"><img class="g-social-media" src="./images/github.svg" alt="link to github"></a></li>
+      <li><a href="#"><img class="v-social-media" src="./images/angellist.svg" alt="link to angellist"></a></li>
+    </ul>
+  </div>
+</section>
 
-        </div>
-        <p class="project_description">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-
-        <footer>
-          <ul id="skills_3" class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="external_link">
-            <a href="#">See Project</a>
-
+<section class="card-section">
+          <div class="cards-container">
+            <ul class="cards-list flex-center-column">
+              <li class="card-item flex-center-column">
+          <div class="img-container">
+            <img class="card-image" data-index-number="1" src="./images/eerste.svg" alt="Portfolio Portfolio">
           </div>
-        </footer>
-      </div>
-    </div>
-
-    <!-- card 2 -->
-    <div class="row-example">
-      <div class="column-example ">
-        <h1>Tonic</h1>
-        <div id="general_inf_2">
-          <p class="title">CANOPY</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter" />
-          <p class="job-title">Back End Dev</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter">
-          <p class="year">2015</p>
-        </div>
-
-        <p class="project_description">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-
-        <footer>
-          <ul id="skills_2" class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="external_link">
-            <a href="#">See Project</a>
-
-          </div>
-        </footer>
-      </div>
-      <div class="column-example">
-        <div class="all_project-images proj-image2"></div>
-      </div>
-    </div>
-
-    <!-- Card 3 -->
-    <div class="row-example">
-      <div class="column-example ">
-        <div class="all_project-images proj-image3"></div>
-      </div>
-      <div class="column-example">
-        <h1>Multi-Post
-          Stories</h1>
-        <div id="general_inf_3">
-          <p class="title">CANOPY</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter" />
-          <p class="job-title">Back End Dev</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter">
-          <p class="year">2015</p>
-
-        </div>
-        <p class="project_description">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-
-        <footer>
-          <ul id="skills_3" class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="external_link">
-            <a href="#">See Project</a>
-
-          </div>
-        </footer>
-      </div>
-    </div>
-
-    <!-- Card 4 -->
-    <div class="row-example">
-      <div class="column-example ">
-
-        <h1>Tonic</h1>
-        <div id="general_inf_2">
-          <p class="title">CANOPY</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter" />
-          <p class="job-title">Back End Dev</p>
-          <img class="counter" src="./images/Counter (1).svg" alt="counter">
-          <p class="year">2015</p>
-        </div>
-
-        <p class="project_description">
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-
-        <footer>
-          <ul id="skills_2" class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javaScript</li>
-          </ul>
-          <div class="external_link">
-            <a href="#">See Project</a>
-
-          </div>
-        </footer>
-      </div>
-      <div class="column-example">
-        <div class="all_project-images proj-image4"></div>
-      </div>
-    </div>
-
-  </section>
-  <section id="about_me">
-    <div class="row">
-      <div class="about-column">
-        <h1>About<br> Myself</h1>
-        <p id="presentation">Hello I’m a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience!
-          If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <div id="profile_link">
-          <h2>LET’S CONNECT</h2>
-          <ul>
-            <li><a href="#"><img src="./images/github.svg" alt="Github"></a></li>
-            <li><a href="https://www.linkedin.com/in/athaliah-li-56217324a/"><img src="./images/Linkedin.svg"
-                  alt="linkedin "></a></li>
-            <li><a href="#"><img src="./images/angellist.svg" alt="angellist"></a></li>
-            <li><a href="https://twitter.com/AthaliahLi"><img src="./images/twitter.svg" alt="twitter "></a></li>
-            <li><a href="#"><img src="./images/Vector.svg" alt="M "></a></li>
-          </ul>
-          <a id="my_resume" href="#">Get my resume</a>
-        </div>
-      </div>
-      <div class="about-column">
-        <div id="my_skills">
-          <div id="languages_skills">
-            <div id="spec_name">
-              <p>Languages</p>
-              <div><img src="./images/Union.png" alt="selected"></div>
+          <div class="right-container">
+            <div class="list-container">
+              <h2>Tonic</h2>
+               <div class="list">
+                <span class="list-item item1">Canopy</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt="dot icon">
+                <span class="list-item">back end Dev</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt="dot icon">
+                <span class="list-item">2015</span>
+               </div>
             </div>
-            <ul id="programmes">
-              <li class="pro">
-                <img src="./images/js.svg" alt="JAVASCRIPT">
-                <p>JavaScript</p>
-              </li>
-              <li class="pro">
-                <img src="./images/html.svg" alt="HTML">
-                <p>HTML</p>
-              </li>
-              <li class="pro">
-                <img src="./images/css.svg" alt="CSS">
-                <p>CSS</p>
-              </li>
-            </ul>
+            <div class="text-container">
+              <p>
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+              </p>
+            </div>
+            <div class="languages-list-container">
+              <ul class="lang-container">
+                <li class="langage-item"><span>Html</span></li><li class="langage-item"><span>Css</span></li><li class="langage-item"><span>Javascript</span></li><li class="langage-item"><span>github</span></li><li class="langage-item"><span>Bootstrap</span></li>
+              </ul>
+            </div>
+            <button type="button" data-index-number="1" class="see-btn">See Project</button>
           </div>
-          <div>
-            <hr>
+        </li>
+          <li class="card-item flex-center-column">
+          <div class="img-container">
+            <img class="card-image" data-index-number="2" src="./images/derde.svg" alt="Portfolio Portfolio">
           </div>
-          <div id="frameworks">
-            <p>Frameworks</p>
-            <div><img src="./images/Union(2).svg" alt="select"></div>
+          <div class="right-container">
+            <div class="list-container">
+              <h2>Multi-Post Stories</h2>
+               <div class="list">
+                <span class="list-item item1">FACEBOOK</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt="dot icon">
+                <span class="list-item">Full Stack Dev</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt="dot icon">
+                <span class="list-item">2015</span>
+               </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+            
+            </div>
+            <div class="languages-list-container">
+              <ul class="lang-container">
+                <li class="langage-item"><span>Html</span></li>
+                <li class="langage-item"><span>Css</span></li>
+                <li class="langage-item"><span>Javascript</span></li>
+                <li class="langage-item"><span>Ruby on Rails</span></li>
+    
+              </ul>
+            </div>
+            <button type="button" data-index-number="2" class="see-btn">See Project</button>
           </div>
-          <div id="l1">
-            <hr />
+        </li>
+          <li class="card-item flex-center-column">
+          <div class="img-container">
+            <img class="card-image" data-index-number="3" src="./images/Snapshoot Portfolio (2).svg" alt="Portfolio card image">
           </div>
-          <div id="sk">
-            <p>Skills</p>
-            <div><img src="./images/Union(2).svg" alt="select"></div>
+          <div class="right-container">
+            <div class="list-container">
+              <h2>Tonic</h2>
+               <div class="list">
+                <span class="list-item item1">Canopy</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt="dot icon">
+                <span class="list-item">back end Dev</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt="dot icon">
+                <span class="list-item">2015</span>
+               </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+              </p>
+            </div>
+            <div class="languages-list-container">
+              <ul class="lang-container">
+                <li class="langage-item"><span>Html</span></li><li class="langage-item"><span>Css</span></li><li class="langage-item"><span>Javascript</span></li><li class="langage-item"><span>github</span></li><li class="langage-item"><span>Bootstrap</span></li>
+              </ul>
+            </div>
+            <button type="button" data-index-number="3" class="see-btn">See Project</button>
           </div>
-          <div class="ligne" id="l2">
-            <hr />
+        </li>
+          <li class="card-item flex-center-column">
+          <div class="img-container">
+            <img class="card-image" data-index-number="4" src="./images/Snapshoot Portfolio (1).svg" alt="Portfolio card image">
           </div>
-        </div>
-      </div>
+          <div class="right-container">
+            <div class="list-container">
+              <h2>Uber Navigation</h2>
+               <div class="list">
+                <span class="list-item item1">Uber</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt="dot icon">
+                <span class="list-item">Lead Developer</span>
+                <img class="list-item-btn" src="./images/btnc.svg" alt=" dot icon">
+                <span class="list-item">2018</span>
+               </div>
+            </div>
+            <div class="text-container">
+              <p>
+                A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+            </div>
+            <div class="languages-list-container">
+              <ul class="lang-container">
+                <li class="langage-item"><span>Html</span></li>
+                <li class="langage-item"><span>Css</span></li>
+                <li class="langage-item"><span>Javascript</span></li>
+                <li class="langage-item"><span>Ruby on Rails</span></li>
+                
+              </ul>
+            </div>
+            <button type="button" data-index-number="4" class="see-btn">See Project</button>
+          </div>
+          </section>
+<!--About section-->
+<section id="about" class="about-me">
+  <div class="left-content">
+    <div class="info-text">
+    <h2 class="title">About Myself</h2>
+    <p class="info">
+      Hello I’m a software developer! I can help you build a product ,
+      feature or website Look through some of my work and experience! If
+      you like what you see and have a project you need coded, don’t
+      hestiate to contact me.
+    </p>
+  </div>
+    <a href="#" class="connect">LET'S CONNECT</a>
+    <ul class="social-media">
+      <li><a href="#"><img class="handel" src="./images/twitter.svg" alt=" link to twitter icon"></a></li>
+      <li><a href="#"><img class="handel" src="./images/Linkedin.svg" alt="link to linkedIn "></a></li>
+      <li><a href="#"><img class="handel" src="./images/Vector.svg" alt="link to medium"></a></li>
+      <li><a href="#"><img class="handel" src="./images/github.svg" alt="link to github"></a></li>
+      <li><a href="#"><img class="handel" src="./images/angellist.svg" alt="link to angellist"></a></li>
+    </ul>
+    <div class="cl-btn">
+    <a class="btn resume-btn" href="#"> Get my resume</a>
     </div>
-    <footer id="contact" class="contact">
-      <div class="contact-contact-container">
-        <div class="container">
-
-          <h2 class="first-text-contact">Contact me</h2>
-          <p class="second-text-contact"><br>If you have an application you are interested in developing,
-            <br>a feature that you need built or a project that needs coding. <br>
-            I’d love to help with it
-          </p>
-
-
-          <form class="container-form" id="contact-form" action="https://formspree.io/f/xeqdveok" method="post">
-            <input id="name" class="text-area" type="text" name="name" maxlength="30" placeholder="name" required>
-
-            <input id="email" class="text-area" name="email" placeholder="email" required>
-
-
-            <textarea id="subject" name="subject" style="height:200px" maxlength="500"
-              placeholder="Write your messsage here" required></textarea>
-
-            <button id="submit" class="btn-container" type="submit" name="submit">Get In Touch</button>
-          </form>
-
-  </section>
   </div>
-  </div>
+  <ul class="my_skills">
+    <li class="spec_sk">
+      <h2 class="kn_1">
+        <span>Languages</span>
+        <span>
+          <img src="./images/Union.png" alt="drop down arrow">
+        </span>
+      </h2>
+      <ul class="languages">
+        <li class="languag-container">
+          <img src="./images/js.svg" alt="JavaScript icon" />
+          <a class="img-language-item" href="#">JavaScript</a>
+        </li>
+        <li class="languag-container">
+          <img src="./images/html.svg" alt="HTML icon" />
+          <a href="#" class="img-language-item">HTML</a>
+        </li>
+        <li class="languag-container">
+          <img src="./images/css.svg" alt="CSS icon" />
+          <a class="img-language-item" href="#">CSS</a>
+        </li>
+      </ul>
+    </li>
+    <li class="spec_sk">
+      <h2 class="kn_1">
+        <span>Frameworks</span>
+        <span>
+          <img src="./images/Union(2).svg" alt="right side arrow">
+        </span>
+      </h2>
+    </li>
+    <li class="spec_sk">
+      <h2 class="kn_1">
+        <span>Skills</span>
+        <span>
+          <img src="./images/Union(2).svg" alt="right side arrow ">
+        </span>
+      </h2>
+</section>
+<!---Contact part-->
+  <footer id="contact" class="contact">
+    <div class="contact-contact-container">
+    <div class="container-contact">
+      <h2 class="first-text-contact"> Contact me</h2>
+      <p class="second-text-contact">If you have an application you are interested in developing, a feature that you need built or a
+          project that
+          needs coding. I’d love to help with it </p>
+    </div>  
+    <form class="container-form" id="contact-form" action="https://formspree.io/f/xeqdveok" method="post">
+      <input id="name" class="text-area" type="text" name="name" maxlength="30"  placeholder="name">
+      <input id="email" class="text-area"  name="email"  
+        placeholder="email">
+      <textarea id="message" class="text-area-large" placeholder="Write your message" maxlength="500" ></textarea>
+      <button id="submit" class="btn-container-contact" type="submit" name="submit">Get In Touch</button>
+    <small id="msg"></small>
+    </form>
+    </div>
+  </footer>
 
-
-  </section>
-
-</body>
-
+  <script type="module" src="./script.js"></script>
+  </body>
 </html>
