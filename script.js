@@ -22,6 +22,7 @@ menuButtonClose.addEventListener('click', menuToggle);
 navItems.forEach((navItem) => {
   navItem.addEventListener('click', menuToggle);
 });
+
 function outputMessage(accepted) {
   const message = document.getElementById('msg');
   if (accepted) {

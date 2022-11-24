@@ -81,7 +81,7 @@ body {
   font-size: 32px;
   font-weight: 600;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .navbar .logo {
@@ -177,7 +177,6 @@ body {
   align-items: flex-start;
   gap: 20px;
 }
-
 
 .first-text-contact {
   font-size: 40px;
@@ -425,7 +424,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.about-me .my_skills{
+.about-me .my_skills {
   width: 100%;
   display: flex;
   align-content: center;
@@ -526,7 +525,6 @@ body {
   margin-top: 2.4rem;
   padding-bottom: 1rem;
 }
-
 
 .social-media svg {
   margin-right: 1.8rem;
@@ -648,11 +646,11 @@ body {
 
   .hero .bio-intro {
     position: static;
-  font-family: "Poppins", sans-serif; 
-  font-size: 20px;
-  line-height: 28px;
-  color: #344563;
-  margin-top: 10px
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+    margin-top: 10px;
   }
 
   .hero .headline {
@@ -707,9 +705,11 @@ body {
     max-width: 480px;
     margin: 0 0 0 20px;
   }
-.social-media li{
-  margin-right: 12px;
-}
+
+  .social-media li {
+    margin-right: 12px;
+  }
+
   .spec_sk .languages li {
     margin: 0 8px 0 20px;
     width: 100px !important;
@@ -829,5 +829,3 @@ body {
     margin: auto;
   }
 }
-
-
