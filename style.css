@@ -176,6 +176,7 @@ body {
   gap: 20px;
 }
 
+
 .first-text-contact {
   font-size: 40px;
   color: #fff;
@@ -422,7 +423,7 @@ body {
   margin-bottom: 2rem;
 }
 
-.about-me .my_skills {
+.about-me .my_skills{
   width: 100%;
   display: flex;
   align-content: center;
@@ -524,6 +525,7 @@ body {
   padding-bottom: 1rem;
 }
 
+
 .social-media svg {
   margin-right: 1.8rem;
 }
@@ -582,10 +584,12 @@ body {
     99.5% 6.2%,
     41% 7.06%,
     0;
-  background-size: auto, auto, auto, auto, auto, cover;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  background-color: #396df2;
+  border-radius: 100px 0 0 0;
+  padding-top: 114px;
+  padding-bottom: 114px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -642,11 +646,11 @@ body {
 
   .hero .bio-intro {
     position: static;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-    line-height: 28px;
-    color: #344563;
-    margin-top: 10px;
+  font-family: "Poppins", sans-serif; 
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  margin-top: 10px
   }
 
   .hero .headline {
@@ -701,11 +705,9 @@ body {
     max-width: 480px;
     margin: 0 0 0 20px;
   }
-
-  .social-media li {
-    margin-right: 12px;
-  }
-
+.social-media li{
+  margin-right: 12px;
+}
   .spec_sk .languages li {
     margin: 0 8px 0 20px;
     width: 100px !important;
@@ -825,3 +827,5 @@ body {
     margin: auto;
   }
 }
+
+
