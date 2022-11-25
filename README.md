@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://athaliah8.github.io/Mobile_Portfolio/)
+[Live Demo Link](https://athaliah8.github.io/Mobile_Portfolio.github.io/)
 
 ### Prerequisites
 A code complier and vscode would work great.
@@ -20,7 +20,9 @@ A code complier and vscode would work great.
 ### Setup
 Open Github and navigate to the main page of the repository. Under the repo name click clone Copy the url for repository Go to your ide(editor) and in the terminal - git clone
 
+###Loom walkthough of portfolio
 
+https://www.loom.com/share/829aec45062141eca2a041baafc602d5
 
 ## Authors
 
@@ -28,9 +30,6 @@ Open Github and navigate to the main page of the repository. Under the repo name
 
 - GitHub: [@githubhandle](https://github.com/Athaliah8)
 
-**Author2**
-
-- GitHub: [@githubhandle](https://github.com/azeezumoru)
 
 
 ## 🤝 Contributing
