@@ -1,9 +1,6 @@
 import data from './info.js';
 
-// const cardList = document.querySelector('.cards-list');
-
 // POPUP WINDOW //
-
 const cardPopupWindow = document.querySelector('.card-popup-window');
 const seeProjectBtn = document.querySelectorAll('.see-btn');
 const seeProjectImg = document.querySelectorAll('.card-image');

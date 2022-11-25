@@ -11,7 +11,6 @@
 
 body {
   background: #e5e5e5;
-  margin: 0;
   font-family: "Poppins", sans-serif;
 }
 
@@ -105,14 +104,14 @@ body {
 
 #portfolio {
   background-image: url("./images/bg.svg");
-  background-repeat: no-repeat, no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-color: #fff;
-  border-bottom-left-radius: 100px;
-  padding-top: 114px;
-  padding-left: 24px;
-  padding-right: 24px;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  
 }
 
 .hero .bio-text {
