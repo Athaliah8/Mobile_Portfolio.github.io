@@ -13,7 +13,7 @@ const data = [
     detail:
         'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['Html', 'Css', 'Javascript', 'Ruby on Rails'],
-    liveDemo: 'https://github.com/Athaliah8',
+    liveDemo: 'https://athaliah8.github.io/Mobile_Portfolio.github.io/',
     sourceCode: 'https://github.com/Athaliah8',
   },
   {
@@ -30,7 +30,7 @@ const data = [
     detail:
         'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['Html', 'Css', 'Javascript', 'Ruby on Rails'],
-    liveDemo: 'https://athaliah8.github.io/Mobile_Portfolio/',
+    liveDemo: 'https://athaliah8.github.io/Mobile_Portfolio.github.io/',
     sourceCode: 'https://github.com/Athaliah8',
   },
   {
@@ -47,7 +47,7 @@ const data = [
     detail:
         'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     technologies: ['Html', 'Css', 'Javascript', 'Ruby on Rails'],
-    liveDemo: 'https://athaliah8.github.io/Mobile_Portfolio/',
+    liveDemo: 'https://athaliah8.github.io/Mobile_Portfolio.github.io/',
     sourceCode: 'https://github.com/Athaliah8',
   },
   {
@@ -64,7 +64,7 @@ const data = [
     detail:
         'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     technologies: ['Html', 'Css', 'Javascript', 'Ruby on Rails'],
-    liveDemo: 'https://athaliah8.github.io/Mobile_Portfolio/',
+    liveDemo: 'https://athaliah8.github.io/Mobile_Portfolio.github.io/',
     sourceCode: 'https://github.com/Athaliah8',
   },
 
