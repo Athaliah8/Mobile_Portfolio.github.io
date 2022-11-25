@@ -46,16 +46,17 @@ body {
 }
 
 .nav-list-menu.open {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-color: #6070ff;
   z-index: 1;
-  position: fixed;
+  position: absolute;
+  backdrop-filter: blur(7px);
+  mix-blend-mode: multiply;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  opacity: 0.9;
 }
 
 .nav-list-menu .mobile-menu-exit {
@@ -78,13 +79,14 @@ body {
 }
 
 .nav-list-menu.open .nav-list .nav-item a {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
-  line-height: 44px;
   color: #fff;
+  padding-left: 5rem;
+  line-height: 60px;
 }
 
-.navbar .logo {
+.logo {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -617,7 +619,6 @@ body {
   }
 
   .hero {
-    background-image: url("./img/Header-desk.png");
     justify-content: flex-start;
     margin-bottom: -20px;
   }
