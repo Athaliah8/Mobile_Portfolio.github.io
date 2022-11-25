@@ -1,6 +1,6 @@
 import data from './info.js';
 
-const cardList = document.querySelector('.cards-list');
+// const cardList = document.querySelector('.cards-list');
 
 // POPUP WINDOW //
 
