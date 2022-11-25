@@ -14,9 +14,6 @@
 
 [Live Demo Link](https://athaliah8.github.io/Mobile_Portfolio/)
 
-
-
-
 ### Prerequisites
 A code complier and vscode would work great.
 
