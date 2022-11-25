@@ -12,11 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://athaliah8.github.io/Mobile_Portfolio/)
-
-
-
-
+[Live Demo Link](https://athaliah8.github.io/Mobile_Portfolio.github.io/)
 
 ### Prerequisites
 A code complier and vscode would work great.
