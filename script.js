@@ -14,6 +14,7 @@ function menuToggle() {
     menuButtonOpen.style.display = 'none';
     menuButtonClose.style.display = 'block';
     navListMenu.style.display = 'block';
+    navListMenu.style.display='fixed';
   }
 }
 
