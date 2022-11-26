@@ -14,6 +14,7 @@ function menuToggle() {
     menuButtonOpen.style.display = 'none';
     menuButtonClose.style.display = 'block';
     navListMenu.style.display = 'block';
+    navListMenu.style.display='fixed';
   }
 }
 
@@ -37,8 +38,11 @@ const form = document.querySelector('.container-form');
 
 form.addEventListener('submit', (element) => {
   const email = document.getElementById('email').value;
+  debugger;
+  console.log(email);
+  /* Using document.getElementById('name').value.trim is useful for identifying empty submissions*/
   const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
+  
   if (email !== email.toLowerCase()) {
     element.preventDefault();
     outputMessage(false);
